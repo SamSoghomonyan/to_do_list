@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.wrapper {
+  margin: 120px auto;
+  max-width: 400px;
+  width: 100%;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  padding: 25px;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: beige;
+}
+.wrapper header {
+  font-size: 30px;
+  font-weight: 600;
+}
+.wrapper .inputField {
+  display: flex;
+  width: 100%px;
+  height: 45px;
+  margin: 20px 0;
+}
+.inputField input {
+  border: none;
+  width: 85%;
+  height: 100%;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+.inputField button {
+  width: 60px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: rgb(75, 23, 124);
+  color: rgb(222, 230, 236);
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.newButton1 {
+  width: 70px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: rgb(75, 23, 124);
+  color: rgb(222, 230, 236);
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-left: 105px;
+}
+/* .container {
+  width: 82%;
+  height: 30px;
+  border: none;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  border-radius: 3px;
+  padding-left: 15px;
+  margin-top: 5px;
+  background-color: white;
+} */
+.container {
+  display: flex;
+  margin-bottom: 10px;
+}
+.divCon {
+  width: 287px;
+  height: 30px;
+  border: none;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  border-radius: 3px;
+  padding-left: 15px;
+  margin-top: 5px;
+  background-color: white;
+}
+
+.deleteButton {
+  width: 58px;
+  height: 81%;
+  border: none;
+  outline: none;
+  background-color: rgb(75, 23, 124);
+  color: rgb(222, 230, 236);
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+.toDoList {
+  font-family: tahoma;
+}
