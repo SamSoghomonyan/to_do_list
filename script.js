@@ -48,3 +48,4 @@ buttonId.addEventListener("click", () => {
   inputId.value = "";
   console.log(newButton1);
 });
+console.log("ok")
